@@ -1,8 +1,8 @@
 version: "3.8"
 
 services:
-  api:
-    container_name: "api"
+  apitest:
+    container_name: "apitest"
     build: .
     ports:
       - "8000:8000"
